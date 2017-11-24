@@ -1,0 +1,28 @@
+$margin: 100px;
+
+.react-table {
+  margin-top: 100px;
+}
+.btn-getreact{
+  margin-left: 5px;
+}
+.logo-mk{
+  border: 2px solid #00d1b2;
+  background: #00d1b2;
+}
+.home-part{
+  margin-top: $margin;
+  height:400px;
+  border-top: 4px solid black;
+}
+.bind-part{
+  @extend .home-part;
+}
+.component-part{
+  @extend .home-part
+}
+.form-part{
+  margin-top: $margin;
+  min-height:400px;
+  border-top: 4px solid black;
+}
