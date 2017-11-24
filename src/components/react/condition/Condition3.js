@@ -63,7 +63,7 @@ class Condition extends Component {
             <div className="hero-body">
               <a className="button btn-getreact is-primary is-outlined" onClick={(e) => this.condtionTrue()}>True</a>
               <a className="button btn-getreact is-link is-outlined" onClick={(e) => this.condtionFalse()}>False</a>
-              {this.state.myStatusCondition}
+              {this.myStatusCondition()}
             </div>
           </section>
         </div>
