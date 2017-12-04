@@ -35,8 +35,8 @@ class Home extends Component {
                <h1 className="title">
                    total price {store.total}
                </h1>
-                  <input className="input is-dark" value={store.price1} onChange={(e) => store.todos(e.target.value)} type="text" placeholder="Text input"/>
-                  <input className="input is-dark" value={store.vat1} onChange={(e) => store.todos2(e.target.value)} type="text" placeholder="Text input"/>
+                  <input className="input is-dark" value={store.price1} onChange={(e) => store.todos(e.target.value)} type="number" placeholder="Text input"/>
+                  <input className="input is-dark" value={store.vat1} onChange={(e) => store.todos2(e.target.value)} type="number" placeholder="Text input"/>
                   <button className="button is-info" onClick={(e) => store.todoKamal(e)}>Click</button>
                </div>
              </div>
@@ -50,7 +50,6 @@ class Home extends Component {
   }
 }
 Home.propTypes = {
-  totalPrice: PropTypes.number,
   price1: PropTypes.number,
   vat1: PropTypes.number
 }

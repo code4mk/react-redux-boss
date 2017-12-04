@@ -6,11 +6,14 @@ class MyComponent{
     @observable title = "kamal the boss"
     @observable price1 = 20
     @observable vat1 = 15
-    @observable totalPrice = []
+    @observable totalPrice
 
     @computed get total() {
       // let self = this
-      return this.price1 + this.vat1
+
+      return this.totalPrice =  this.price1 + this.vat1
+
+
     }
 
     @action todos(value) {
@@ -32,7 +35,6 @@ class MyComponent{
 // export default store
 // window.__STATE = new State(window.__STATE)
 MyComponent.propTypes = {
-  totalPrice: PropTypes.number,
   price1: PropTypes.number,
   vat1: PropTypes.number
 }
