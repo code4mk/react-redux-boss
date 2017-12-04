@@ -12,7 +12,8 @@ class MyComponent{
 
     @computed get total() {
       return (
-        this.totalPrice =  parseInt(this.price1) + parseInt(this.vat1)
+        //parseInt parseFloat //
+        this.totalPrice =  parseFloat(this.price1) + parseFloat(this.vat1)
       )
     }
 
