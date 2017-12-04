@@ -44,6 +44,14 @@ class App extends Component {
           <Link className="navbar-item" to="/component1">Component1</Link>
         </div>
       </div>
+
+      <div className="navbar-item has-dropdown is-hoverable">
+        <Link className="navbar-link" to="/">mobX</Link>
+        <div className="navbar-dropdown is-boxed">
+          <Link className="navbar-item" to="/template1">template one</Link>
+          <Link className="navbar-item" to="/template2">template two</Link>
+        </div>
+      </div>
     </div>
 
     <div className="navbar-end">

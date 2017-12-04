@@ -15,6 +15,8 @@ import Refs2 from '../components/react/refs/refsComponent2'
 import Bind from '../components/react/bind/ClassBind'
 import Component2 from '../components/react/components/children-element/ParentComponent'
 import Component1 from '../components/react/components/default/ParentComponent'
+import TemplateOne from '../components/mobx/TemplateOne'
+
 
 class routes extends Component {
     render() {
@@ -35,6 +37,7 @@ class routes extends Component {
           <Route path="/bind" component={Bind}/>
           <Route path="/component1" component={Component1}/>
           <Route path="/component2" component={Component2}/>
+          <Route path="/template1" component={TemplateOne}/>
         </Switch>
       )
     }
