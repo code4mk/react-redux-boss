@@ -33,7 +33,7 @@ class Home extends Component {
                   price is  {store.price1} , vat is {store.vat1}
                </h1>
                <h1 className="title">
-                   total price {store.total}
+                  Total is :  {store.total}
                </h1>
                   <input className="input is-dark" value={store.price1} onChange={(e) => store.todos(e.target.value)} type="number" placeholder="Text input"/>
                   <input className="input is-dark" value={store.vat1} onChange={(e) => store.todos2(e.target.value)} type="number" placeholder="Text input"/>

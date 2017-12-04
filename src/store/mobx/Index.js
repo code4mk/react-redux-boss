@@ -8,12 +8,12 @@ class MyComponent{
     @observable vat1 = 15
     @observable totalPrice
 
+
+
     @computed get total() {
-      // let self = this
-
-      return this.totalPrice =  this.price1 + this.vat1
-
-
+      return (
+        this.totalPrice =  parseInt(this.price1) + parseInt(this.vat1)
+      )
     }
 
     @action todos(value) {
