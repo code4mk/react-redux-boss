@@ -1,5 +1,5 @@
 # react-redux-boss (RRB)
-RRB is a mini React Redux boilerplate .
+RRB is a mini React Redux (+mobx) boilerplate .
 
 <p align="center" ><img src="./src/assets/rrb1.png"></p>
 
@@ -8,6 +8,7 @@ RRB is a mini React Redux boilerplate .
  - React
  - React Router Dom
  - Redux (coming soon)
+ - mobx
  - Axios
  - Bulma
 
